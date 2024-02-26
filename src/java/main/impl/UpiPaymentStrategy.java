@@ -15,6 +15,6 @@ public class UpiPaymentStrategy implements PaymentStrategy {
 
     @Override
     public void proceedPayment(double amount) {
-        System.out.println("Payment done by UPI id!!");
+        System.out.println("Payment done by UPI id!!" + "Amount is : "+ amount);
     }
 }

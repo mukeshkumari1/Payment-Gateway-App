@@ -13,6 +13,6 @@ public class PaypalPaymentStrategy implements PaymentStrategy {
 
     @Override
     public void proceedPayment(double amount) {
-        System.out.println("Payment done by paypal wallet");
+        System.out.println("Payment done by paypal wallet ! " + "Amount is : "+ amount);
     }
 }
